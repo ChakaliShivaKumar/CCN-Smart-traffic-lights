@@ -1,0 +1,19 @@
+<configuration>
+    <input>
+        <net-file value="complex_network.net.xml"/>
+        <route-files value="complex.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="complex_tripinfo.xml"/>
+    </output>
+
+        <time>
+      <begin value="0"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+</configuration>
